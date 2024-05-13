@@ -1,0 +1,40 @@
+/* Gaya umum untuk fieldset */
+fieldset {
+    border: none; /* Hilangkan garis tepi */
+    padding: 10px; /* Jarak dalam fieldset */
+    background: #f9f9f9; /* Warna latar belakang lembut */
+    border-radius: 5px; /* Sudut melengkung */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut */
+}
+
+/* Gaya untuk label */
+label {
+    font-weight: bold; /* Teks tebal */
+    color: #333; /* Warna teks abu-abu tua */
+    margin-bottom: 5px; /* Jarak di bawah label */
+    display: block; /* Agar label tampil dengan benar */
+}
+
+/* Gaya untuk select (dropdown menu) */
+select {
+    width: 100%; /* Mengisi lebar kolom */
+    padding: 10px; /* Jarak dalam select */
+    border: 1px solid #ccc; /* Garis tepi abu-abu */
+    border-radius: 5px; /* Sudut melengkung */
+    background-color: #ffffff; /* Warna latar belakang putih */
+    font-size: 14px; /* Ukuran font */
+    font-family: Arial, sans-serif; /* Font keluarga */
+}
+
+/* Efek hover dan fokus untuk select */
+select:hover,
+select:focus {
+    border-color: #ff8000; /* Ubah warna garis tepi saat di-hover atau difokuskan */
+}
+
+/* Gaya untuk opsi (option) dalam select */
+option {
+    padding: 10px; /* Jarak dalam opsi */
+    font-size: 14px; /* Ukuran font */
+    color: #333; /* Warna teks */
+}
